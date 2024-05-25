@@ -5,7 +5,7 @@
     "dependencies":{
         "Dependency Name":"Dependency Version | latest" 
     },
-    "exports": "auto"
+    "exports": "auto", 
     "make":[
 	{
 		"target":"ocompile"
