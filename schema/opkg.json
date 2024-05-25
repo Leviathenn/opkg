@@ -1,3 +1,14 @@
 {
-    "$schema": "https://raw.githubusercontent.com/leviathenn/opkg/master/schema/opkg.json"
+    "title":"Package Name",
+    "author": "Author Name | Leviathenn",
+    "description":"A Simple Description About the Product.",
+    "dependencies":{
+        "Dependency Name":"Dependency Version | latest" 
+    },
+    "exports": "auto"
+    "make":[
+	{
+		"target":"ocompile"
+	}	
+    ]
 }
